@@ -401,7 +401,7 @@ function ReportIssuePage({ onAdd }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "AQ.Ab8RN6JXSQ1K6kDC67MmoUKvsS7N9mm2iNmIVPMRKCtc4UcMKQ";
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY || ""; 
 
     try {
       setLoading(true);
